@@ -113,14 +113,34 @@ p {
 /* -------------------- */
 /* -------Section------ */
 /* -------------------- */
-.section .container {
+.section {
+    margin: 50px auto;
+}
+
+.projects {
+    width: 90%;
+    margin: auto;
+}
+.projects h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
-.box {
+.project-item {
     flex: 1;
+    min-width: 375px;
+    max-width: 375px;
+}
+
+.box {
     border-radius: 10px;
     background-color: slategray;
     margin: 40px 0px;
