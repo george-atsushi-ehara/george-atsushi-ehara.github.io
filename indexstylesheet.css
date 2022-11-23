@@ -162,18 +162,33 @@ p {
     align-items: center;
     font-size: 4rem;
     font-style: italic;
+    color: black;
+    margin: 0;    
 }
 
 .quote-container {
-    padding: 25px 10%;
+    padding: 150px 10%;
 }
-
+.quote-container p{
+    margin: 0;
+}
 .quote-author {
     font-weight: bold;
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
-    align-items:flex-end
+    align-items:flex-end;
+    margin: 0;
+}
+
+.cta {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.cta-box{
+    background-color: cornflowerblue;
 }
 
 /* -------------------- */
@@ -182,6 +197,7 @@ p {
 
 .footer{
     display: flex;
+    margin: 0;
 }
 
 .footer .container .row {
